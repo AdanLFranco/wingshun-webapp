@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍜 Wing Shun - Menú Digital Interactivo
 
-## Getting Started
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🏮 Sobre el Proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esta es una aplicación web moderna diseñada para **Wing Shun**, un restaurante de tradición cantonesa ubicado en **Estelí, Nicaragua**. El objetivo principal es digitalizar la experiencia del menú, permitiendo a los clientes explorar la gastronomía oriental de forma visual y realizar pedidos directamente vía **WhatsApp**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> **Estado del Proyecto:** 🚧 **80% - Desarrollo Beta**.
+> La arquitectura base, el sistema de navegación y el diseño visual están completados. Actualmente trabajando en la carga final del catálogo y optimización de activos multimedia.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### ✨ Características Principales
 
-To learn more about Next.js, take a look at the following resources:
+- **Identidad Visual de Marca:** Interfaz personalizada basada en una paleta "Imperial Red & Gold" y tipografía con toques orientales.
+- **Experiencia Mobile-First:** Navegación ultra fluida optimizada específicamente para smartphones.
+- **Pedidos por WhatsApp:** Sistema de botones inteligentes que generan mensajes automáticos detallando el plato seleccionado.
+- **Performance:** Uso de `next/image` para carga diferida (lazy loading) y optimización de imágenes locales.
+- **Variables de Entorno:** Configuración segura de datos sensibles para facilitar el mantenimiento.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛠️ Roadmap (Próximos pasos)
 
-## Deploy on Vercel
+- [ ] **Contenido:** Carga completa del catálogo de platos y secciones de promociones.
+- [ ] **Infraestructura:** Migración de activos locales a **Cloudinary** para entrega vía CDN.
+- [ ] **UI/UX:** Implementación de transiciones suaves y estados de carga mejorados.
+- [ ] **Despliegue:** Deploy oficial en Vercel con dominio personalizado.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔧 Instalación y Uso Local
+
+Si deseas explorar el código o ejecutarlo localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/TU_USUARIO/tu-repositorio.git](https://github.com/TU_USUARIO/tu-repositorio.git)
+   ```
