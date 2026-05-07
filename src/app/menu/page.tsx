@@ -15,15 +15,14 @@ export default function MenuPage() {
       <div className="fixed inset-0 -z-10  bg-black/40 backdrop-blur-[2px]" />
 
       {/* 3. CONTENIDO DEL MENÚ */}
-      <div className="relative p-4 md:p-10 max-w-6xl mx-auto pt-16 pb-24">
+      <div className="relative p-4 md:p-10 max-w-6xl mx-auto pb-24">
         {/* Encabezado Estilizado */}
-        <header className="mb-10 md:mb-20 text-center">
-          <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter drop-shadow-2xl">
-            <span className="text-white">NUESTRO</span>{" "}
-            <span className="text-amber-300">MENÚ</span>
+        <header className="py-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-black mb-4">
+            <span className="text-white">Nuestro</span>{" "}
+            <strong className="text-amber-300">Menú</strong>
           </h1>
-          <div className="h-1.5 w-32 bg-brand-red mx-auto mt-4 rounded-full shadow-lg" />
-          <p className="text-gray-300 mt-4 text-lg font-medium italic opacity-80">
+          <p className="max-w-2xl mx-auto text-gray-300 text-lg italic opacity-90">
             Descubre la esencia de Cantón en cada plato.
           </p>
         </header>

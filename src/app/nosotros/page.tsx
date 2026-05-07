@@ -3,7 +3,7 @@ export default function NosotrosPage() {
   return (
     <main className="bg-red-900 min-h-screen">
       {/* Header con imagen opcional de la familia o el equipo trabajando */}
-      <section className="bg-red-700 py-16 text-white text-center px-4">
+      <section className="bg-red-950 py-16 text-white text-center px-4">
         <h1 className="text-4xl md:text-5xl font-black mb-4">
           Nuestra <strong className="text-amber-300">Historia</strong>
         </h1>

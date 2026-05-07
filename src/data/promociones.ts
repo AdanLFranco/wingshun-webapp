@@ -7,7 +7,7 @@ export const PROMOCIONES: Promocion[] = [
     desc: "Ofrecemos un combo variado de nuestros mejores platos",
     precio: "Consultar",
     color: "bg-red-600",
-    foto: "/promo-familiar.jpg",
+    foto: "/platoFamiliarPromo.jpeg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const PROMOCIONES: Promocion[] = [
     desc: "Para que no te quedes con ganas de saborear nuestras famosas alitas",
     precio: "Consultar",
     color: "bg-orange-500",
-    foto: "/promo-familiar.jpg",
+    foto: "/alitasPromo.webp",
   },
   {
     id: 3,
@@ -23,6 +23,6 @@ export const PROMOCIONES: Promocion[] = [
     desc: "Plato principal + Bebida",
     precio: "Consultar",
     color: "bg-red-800",
-    foto: "/promo-familiar.jpg",
+    foto: "/promoPlatodelDia.jpeg",
   },
 ];
